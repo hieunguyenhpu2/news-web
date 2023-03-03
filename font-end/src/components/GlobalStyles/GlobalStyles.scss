@@ -4,6 +4,8 @@
 
 :root{
     --primary: #fe2c55;
+    --black: #000;
+    --text-color: #333;
 
     //DefailtLayout
     --default-layout-header-height: 64px;
@@ -25,5 +27,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
-    text-rendering: optimizeSpeed; 
+    text-rendering: optimizeSpeed;
+    color: var(--text-color); 
+}
+
+button, input, [tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
