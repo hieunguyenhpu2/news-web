@@ -3,10 +3,17 @@
 
 
 :root{
-    --primary: #fe2c55; 
+    --primary: #fe2c55;
+
+    //DefailtLayout
+    --default-layout-header-height: 64px;
+    --default-layout-width: 1248px;
+
 }
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
